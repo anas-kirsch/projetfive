@@ -1,5 +1,63 @@
+:root{
+    --brown:#ff9933;
+}
+*{
+    /* border : solid black 1px; */
+}
 
-.style {
-    background-color: blue;
+body{
+
+    margin: 0px;
+    background-color: var(--brown)
+}
+#banniere {
+    position: relative;
+    display: flex;
+    background-image:url(image/coffee_large.png);
+    background-size:cover;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    flex-direction: column;
+}
+
+#banniere h1, #banniere h4{
+    margin: 0px;
+    padding: 0px;
+}
+
+#banniere h4{
+    font-family: "Italianno", sans-serif;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+
+#banniere img{
+    position: absolute;
+    left: 20px;
+    width: 140px;
+    top: 25px;
+}
+
+
+.style{    
+    margin: 40px;
 
 }
+
+a {
+    color: white;
+    /*text-decoration: none;*/
+}
+
+/*
+.texte1 {
+    color: #ff9933;
+}*/
