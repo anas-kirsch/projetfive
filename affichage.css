@@ -186,6 +186,7 @@ textarea{
     max-width: 415px;
     max-height: 150px;
     min-height: 80px;
+    min-width: 150px;
 }
 
 
