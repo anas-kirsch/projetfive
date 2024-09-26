@@ -13,6 +13,7 @@ body{  /*precision corp de page*/
     margin: 0px;
     background-color: var(--brown);
 }
+ 
 #banniere { /* caracteristique banniere */
     position: relative;
     display: flex;
@@ -38,6 +39,7 @@ body{  /*precision corp de page*/
 #les_pages{  /*align et espace des 3 categories*/
     display: flex;
     gap: 40px;
+    text-shadow: 3px 3px black;
  }
 
 
@@ -132,17 +134,13 @@ a{ /* caracteristique 3 categories*/
 }
 
 
-#image_reg{ /*caracteristique image*/
+#image_reg{ /*caracteristique image*/ /*dernier reglage main*/
     padding-top:30px;
     padding-right: 30px;
     padding-bottom: 25px;
 }
 
-
-
-
-
-
+/*footer*/
 
 .footer{ /* bas de page*/
     background-color: #703d0a;
@@ -166,7 +164,7 @@ label { /*texte au dessus du input*/
     padding: 10px;
 }
 
-.contact{ 
+.contact{  /*centre les categorie de contact*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -182,7 +180,7 @@ label { /*texte au dessus du input*/
     margin-bottom: 10px;
    
 }
-textarea{
+textarea{   /*css de la zone message*/
     max-width: 415px;
     max-height: 150px;
     min-height: 80px;
@@ -190,7 +188,7 @@ textarea{
 }
 
 
-#bouton{
+#bouton{ /*css du bouton entrer*/
     width: 20%;
     background-color:#bb9e50 ;
     border-radius: 5px;
@@ -199,7 +197,7 @@ textarea{
     padding-top: 10px;
 
 }
-button:active{
+button:active{ /* effet css bouton diminue*/
     scale: 0.90;
 }
 
@@ -256,11 +254,13 @@ button:active{
   
 }
 
-#reseau{
+
+
+#reseau{   /*retrouvez nous ici*/
     display: flex;
     justify-content: center;
 
-}/*retrouvez nous ici*/
+}
 
 .logo{ /*reglage reseau logo*/
     display: flex;

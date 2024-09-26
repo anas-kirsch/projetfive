@@ -1,0 +1,346 @@
+
+/*tete de page*/
+
+body{
+    background-color: #996633;
+    margin: 0px;
+}
+
+.banniere{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+#logo{ /*agancement logo banniere*/
+    display: flex;
+    width: 130px;
+    height: 130px;
+    padding: 25px;
+   
+}
+
+#moncafe{ /*agencement titre MC banniere*/
+    display: flex;
+    font-size: 55px;
+    align-items: center;
+    margin-bottom: 0px;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+#lart{ /*caracteristique titre italique*/
+    font-size: 50px;
+    font-family: "Italianno", sans-serif;
+    margin: 0px;
+    padding-left: 55px;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+.lespages{ /*caacteristique page*/
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    font-size: 35px;
+    position: relative;
+    align-items: center;
+    padding-left: 200px;
+    text-shadow: 3px 3px black;
+
+}
+
+#clo{ /*couleur lien page*/
+    color: white;
+}
+
+
+/* main */
+
+#bande{ /*bande cafe caracteristique*/
+    width: 1366px;
+    height: 180px;
+    padding-top: 15px;
+
+}
+
+
+p{
+        display: flex;
+        text-align: justify;
+    
+}
+
+.atexte{ /*titre et son texte*/
+    padding-left: 40px;
+    margin: 20px 0px 0px 0px;
+    font-size: 20px;
+    
+}
+
+.zonea{ /* aligne image avec le atexte*/
+    display:flex;
+    flex-direction: row;
+    text-shadow: 1px 0px rgb(139, 117, 117);
+
+}
+
+#seulimage{ /*css image a droite*/
+    display: flex;
+    padding: 0px 60px 0px 35px;
+    
+}
+
+.btexte{ /* css paragraphe sous limage*/
+    display: flex;
+    font-size: 20px;
+    margin: 0px 0px 15px 0px;
+    padding: 0px 45px 0px 40px;
+    text-shadow: 1px 0px rgb(139, 117, 117);
+
+}
+
+.ctexte{ /* premier texte a gauche */
+    display: flex;
+    font-size: 20px;
+    margin: 0px 0px 15px 0px;
+    padding: 20px 0px 0px 40px;
+    text-shadow: 1px 0px rgb(139, 117, 117);
+
+}
+ .dtexte{ /*texte d a droite du c*/
+    display: flex;
+    font-size: 20px;
+    margin: 0px 0px 15px 0px;
+    padding: 20px 45px 0px 40px;
+    text-shadow: 1px 0px rgb(139, 117, 117);
+
+ }
+
+ .texteCD{  /*agencement texte c et d*/
+     display: flex;
+     flex-direction: row;
+        
+
+ }
+
+ .TITREetexte{ /*reglage titre e texte*/
+    display: flex;
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+    padding: 20px 45px 0px 40px;
+    text-shadow: 1px 0px rgb(139, 117, 117);
+
+ }
+
+
+.etexte{  /* texte e solo*/
+    display: flex;
+    font-size: 20px;
+    margin: 0px 0px 15px 0px;
+    padding: 20px 45px 0px 40px;
+    text-shadow: 1px 0px rgb(139, 117, 117);
+
+
+}
+
+.TITREftexte{ /*reglage titre f texte*/
+    display: flex;
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+    padding: 20px 45px 0px 40px;
+    text-shadow: 1px 0px rgb(139, 117, 117);
+
+}
+
+.ftexte{  /*texte f a gauche de la liste*/
+    display: flex;
+    font-size: 20px;
+    margin: 0px 0px 10px 0px;
+    padding: 20px 45px 0px 40px;
+    text-shadow: 1px 0px rgb(139, 117, 117);
+
+
+}
+
+.ultxt{ /*css liste*/
+    display: flex;
+    font-size: 20px;
+    margin: 20px 0px 30px 0px;
+    padding: 20px 45px 0px 40px;
+    text-shadow: 1px 0px rgb(139, 117, 117);
+
+
+}
+
+.lastZ{ /* agencement dernier texte et liste*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+
+
+/*footer css */
+
+
+
+
+/*footer*/
+
+.footer{ /* bas de page*/
+    background-color: #703d0a;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 30px;
+}
+
+.input{ /* zone de texte a remplir*/ 
+    border-radius: 10px;
+}
+.textarea{ /* input mais en plus grand*/
+    display: grid;
+    grid-template-rows: auto;
+    border-radius: 10px;
+}
+
+label { /*texte au dessus du input*/
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+
+.contact{  /*centre les categorie de contact*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  
+}
+
+.contact input, textarea{  /*formulaire de ctc*/
+    border:none;
+    width: 95%;
+    background-color:#bb9e50;
+    border-radius: 5px;
+    margin-bottom: 10px;
+   
+}
+textarea{   /*css de la zone message*/
+    max-width: 415px;
+    max-height: 150px;
+    min-height: 80px;
+    min-width: 150px;
+}
+
+
+#bouton{ /*css du bouton entrer*/
+    width: 20%;
+    background-color:#bb9e50 ;
+    border-radius: 5px;
+    border:none;
+    padding: 10px;
+    padding-top: 10px;
+
+}
+button:active{ /* effet css bouton diminue*/
+    scale: 0.90;
+}
+
+.bas_de_page{/*carte*/
+    text-align: center;
+}
+
+
+#baspage{ /*taille carte*/
+    height: 250px;
+    width: 300px;
+}
+
+/*zone a propos*/
+
+.derniere_zone{  /*zone a propos a droite*/
+        display: flex;
+        flex-direction: column;
+} 
+
+#zonea{ /* titre a propos*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/*
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+*/
+
+#image_fin{ /*petit logo mc*/
+    display: flex;
+    width: 70px;
+    height: 70px;
+    padding-right: 15px ;
+    }
+
+#zoneb{ /*logo mc et titre*/
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    align-items: center;
+ 
+}
+
+#zonec{ /*email et numeor*/
+    font-size: 20px;
+    margin: 0px;
+    color: black;
+  
+}
+
+
+
+#reseau{   /*retrouvez nous ici*/
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo{ /*reglage reseau logo*/
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 40px;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+#titre{  alignement des 
+    display: flex;
+    flex-direction: column;
+}*/
